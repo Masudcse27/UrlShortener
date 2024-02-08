@@ -1,0 +1,59 @@
+body {
+    background-image: url('images/SignUP.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.884),rgba(255, 255, 255, 0.884));
+    margin-top: 35px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="NID"],
+  input[type="phone"],
+  input[type="address"],
+  select {
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .form-check {
+    margin-bottom: 8px;
+  }
+  .form-check input {
+    margin-right: 10px;
+  }
+  .form-check label {
+    font-weight: normal;
+  }
+  @media screen and (max-width: 576px) {
+    .container {
+      margin-top: 20px;
+    }
+  }
